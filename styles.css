@@ -1,0 +1,626 @@
+/* Frame 2 */
+.frame{
+position: relative;
+width: 1920px;
+height: 1080px;
+
+background: #161313;
+}
+
+/* Desktop - 1 */
+.desktop{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-shadow: 25px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+    .desktop {
+        text-align: center;
+        display: block;
+    }
+}
+
+/* Right text */
+.rtext{
+    position: absolute;
+    width: 361px;
+    height: 627px;
+    left: 1482px;
+    top: 214px;
+}
+
+
+/* Для початку роботи: */
+.text1{
+    position: absolute;
+    width: 361px;
+    height: 38.53px;
+    left: 1482px;
+    top: 195px;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #F44747;
+}
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
+.fish1{
+    position: absolute;
+    width: 353.39px;
+    height: 581.73px;
+    left: 1482px;
+    top: 240.27px;
+    font-family: 'Kokoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+
+/* Left text */
+.ltext{
+    position: absolute;
+    width: 355px;
+    height: 553px;
+    left: 82px;
+    top: 214px;
+}
+
+
+/* Генерація картинки */
+.text2{
+    position: absolute;
+    width: 314px;
+    height: 40px;
+    left: 82px;
+    top: 214px;
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height */
+    text-align: left;
+
+    color: #F44747;
+}
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
+.fish2{
+    position: absolute;
+    width: 355px;
+    height: 506px;
+    left: 82px;
+    top: 261px;
+
+    font-family: 'Kokoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+
+/* Window gener */
+.windowgen{
+    position: absolute;
+    width: 632px;
+    height: 467px;
+    left: 644px;
+    top: 234px;
+}
+
+
+/* Button add */
+.buttonadd{
+    position: absolute;
+    width: 291.98px;
+    height: 86.27px;
+    left: 660.02px;
+    top: 614.73px;
+}
+
+
+/* button */
+.button1{
+    position: absolute;
+    width: 291.98px;
+    height: 86.27px;
+    left: 660.02px;
+    top: 614.73px;
+
+    background: #F44747;
+    border-radius: 98px;
+}
+
+/* Додати зображення */
+.addtextbut{
+    position: absolute;
+    width: 282px;
+    height: 77px;
+    left: 665px;
+    top: 598px;
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+/* Gener field */
+.generfield{
+    position: absolute;
+    width: 632px;
+    height: 371.53px;
+    left: 644px;
+    top: 234px;
+
+    background: #D9D9D9;
+    border-radius: 26px;
+}
+
+/* Button gener */
+.gentextbut{
+    position: absolute;
+    width: 291.98px;
+    height: 86.27px;
+    left: 984.02px;
+    top: 614.73px;
+}
+
+
+/* button */
+.button2{
+    position: absolute;
+    width: 291.98px;
+    height: 86.27px;
+    left: 984.02px;
+    top: 614.73px;
+
+    background: #F44747;
+    border-radius: 98px;
+}
+
+/* Згенерувати */
+.gener{
+    position: absolute;
+    width: 235.66px;
+    height: 51.76px;
+    left: 1012px;
+    top: 598px;
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+/* Up bar */
+.upbar{
+    position: absolute;
+    width: 1920px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+    margin-top: 0%;
+}
+
+
+/* upper */
+.upper{
+    position: absolute;
+    width: 1920px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(244, 71, 71, 0.54);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(2px);
+}
+
+h2{
+    margin: 0;
+    font-family: 'Kokoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* NAME OF THE COMPANY */
+.namecomp{
+    position: absolute;
+    width: 558.67px;
+    height: 54px;
+    left: 680px;
+    top: 20px;
+
+    font-family: 'Kokoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+/* Account */
+.acc{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 1853px;
+    top: 14px;
+}
+
+
+/* Ellipse 1 */
+.elipse{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 1853px;
+    top: 14px;
+    background: #D9D9D9;
+    border-radius: 50%;
+}
+
+/* K */
+.nameacc{
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    left: 1871px;
+    top: 5px;
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+
+/* Menu */
+.menu{
+    position: absolute;
+    width: 145.33px;
+    height: 31px;
+    left: 93.33px;
+    top: 26px;
+}
+
+
+/* button_menu */
+.butmenu{
+    position: absolute;
+    width: 145.33px;
+    height: 31px;
+    left: 93.33px;
+    top: 26px;
+
+    background: #161313;
+    border-radius: 40px;
+}
+
+/* identical to box height */
+.box{
+    position: absolute;
+    width: 94.67px;
+    height: 33px;
+    left: 118.67px;
+    top: 5px;
+    
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.house{
+    position: absolute;
+    width: 45px;
+    height: 38px;
+    left: 18px;
+    top: 22px;
+    background-size: cover;
+    background: url(house.png);
+    background-size: cover;
+}
+
+/* Down bar */
+.downbar{
+    position: absolute;
+    width: 1920px;
+    height: 147px;
+    left: 0px;
+    top: 933px;
+
+    background: #161313;
+    filter: blur(2px);
+}
+
+/* White down bar */
+.whitedownbar{
+    position: absolute;
+    width: 1211.33px;
+    height: 124px;
+    left: 658.67px;
+    top: 944px;
+}
+
+
+/* Rectangle 2 */
+.rec{
+    position: absolute;
+    width: 561px;
+    height: 124px;
+    left: 1309px;
+    top: 944px;
+
+    background: #BFBFBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(2px);
+    border-radius: 7px;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+/* Доставка та оплата Бла бла Бла бла Бла бла */
+.textbla{
+    position: absolute;
+    width: 233.78px;
+    height: 100px;
+    left: 658.67px;
+    top: 957px;
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+
+/* Social */
+.social{
+    position: absolute;
+    width: 156.51px;
+    height: 101px;
+    left: 1686px;
+    top: 957px;
+}
+
+a {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-size: cover;
+}
+
+/* viber_b 1 */
+.viber{
+    position: absolute;
+    width: 46.03px;
+    height: 44.89px;
+    left: 1796.48px;
+    top: 1013.11px;
+
+    background: url(viber_b.png);
+    background-size: cover;
+}
+
+/* youtube_b 1 */
+.yt{
+    position: absolute;
+    width: 46.03px;
+    height: 44.89px;
+    left: 1796.48px;
+    top: 957px;
+    background: url(youtube_b.png);
+    background-size: cover;
+}
+
+/* telegram_b 1 */
+.telegram{
+    position: absolute;
+    width: 46.03px;
+    height: 44.89px;
+    left: 1686px;
+    top: 1013.11px;
+    background: url(telegram_b.png);
+    background-size: cover;
+}
+
+/* tik-tok_b 1 */
+.tt{
+    position: absolute;
+    width: 46.03px;
+    height: 44.89px;
+    left: 1741.24px;
+    top: 1013.11px;
+    background: url(tik-tok_b.png);
+    background-size: cover;
+}
+
+/* instagram_b 1 */
+.inst{
+    position: absolute;
+    width: 46.03px;
+    height: 44.89px;
+    left: 1741.24px;
+    top: 957px;
+    background: url(instagram_b.png);
+    background-size: cover;
+}
+
+/* facebook_b 1 */
+.facebook{
+    position: absolute;
+    width: 46.03px;
+    height: 44.89px;
+    left: 1686px;
+    top: 957px;
+    background-size: cover;
+    background: url(facebook_b.png);
+    background-size: cover;
+}
+
+/* Work time */
+.worktime{
+    position: absolute;
+    width: 202.12px;
+    height: 97px;
+    left: 972px;
+    top: 954px;
+}
+
+
+/* Пн-Пт: 9:00-20:00 Сб: 10:00-18:00 Нд: 10:00-17:30 */
+.graf{
+    position: absolute;
+    width: 202.12px;
+    height: 72px;
+    right: 745.88px;
+    top: 979px;
+
+    font-family: 'Kokoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+
+/* Час роботи: */
+.time{
+    position: absolute;
+    width: 136px;
+    height: 25px;
+    right: 812px;
+    top: 954px;
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: left;
+
+    color: #F44747;
+}
+
+
+/* Phone */
+.phone{
+    position: absolute;
+    width: 262px;
+    height: 50px;
+    left: 1354px;
+    top: 977px;
+}
+
+
+/* +380993177200 */
+.number{
+    position: absolute;
+    width: 191.36px;
+    height: 37.5px;
+    left: 1424.64px;
+    top: 979.5px;
+
+    font-family: 'Kokoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+/* phone 1 */
+.phone1{
+    position: absolute;
+    width: 51.37px;
+    height: 50px;
+    left: 1354px;
+    top: 977px;
+
+    background: url(phone.png);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+}
+
+/* NAME OF THE COMPANY */
+.namecom{
+    position: absolute;
+    width: 569.33px;
+    height: 57px;
+    left: 14.67px;
+    top: 950px;
+
+    font-family: 'Kokoro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
